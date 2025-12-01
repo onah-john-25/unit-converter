@@ -56,6 +56,10 @@ body {
     color: #FFFFFF;
 }
 
+.top-contents #num-input:focus {
+    outline: none;
+}
+
 .top-contents .convert-btn {
     border: none;
     border-radius: 5px;
