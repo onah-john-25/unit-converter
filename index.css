@@ -13,9 +13,6 @@ input, button {
 body {
     min-height: 100vh;
     font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #1F2937;
     font-size: 15px;
 }
@@ -24,6 +21,8 @@ body {
     max-width: 550px;
     width: 100%;
     text-align: center;
+    margin: 0 auto;
+    border: 1px solid #6943FF;
 }
 
 .top-contents{
