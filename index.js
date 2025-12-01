@@ -10,7 +10,7 @@ const units = [
     ['kilos', 'pounds']
 ]
 
-const conversionFactor = ['3.281', '0.264', '2.204']
+const conversionFactor = ['3.28084', '0.26417', '2.20462']
 
 // LISTEN FOR CONVERT BUTTON CLICK
 conversionBtn.addEventListener('click', function() {
