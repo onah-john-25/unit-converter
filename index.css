@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button {
+    font-family: inherit;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+.top-contents{
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 34px;
+}
+
+.top-contents .heading {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -3%;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.top-contents #num-input {
+    font-size: 58px;
+    font-weight: 800;
+    width: 117px;
+    line-height: 83px;
+    background: transparent;
+    border: 2px solid #B295FF;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-contents .convert-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    font-weight: 500;
+    padding: 9px 27.5px;
+    cursor: pointer;
+    transition: .3s opacity;
+}
+
+.top-contents .convert-btn:hover {
+    opacity: .7;
+}
+
+/* bottom contents */ 
+.bottom-contents {
+    background: #1F2937;
+    padding: 36px 25px;
+}
+
+.bottom-contents ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 25px;
+}
+
+.bottom-contents .conversion-results {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    background-color: #273549;
+    padding: 31px 20px 18px 20px;
+}
+
+.conversion-results .supporting-heading {
+    color: #CCC1FF;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.conversion-results .supporting-text {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+
+
+
+
